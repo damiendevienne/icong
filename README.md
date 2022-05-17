@@ -16,16 +16,16 @@ Please, cite at least the first one if you use Icong in a publication.
 ## Tuto
 
 * Download and unpack the zip of the current repo: [click here for example](https://github.com/damiendevienne/icong/archive/refs/heads/main.zip)
-* open a terminal and go to the location where you unpacked it (`cd icong/`)
+* open a terminal and go to the location where you unpacked it (`cd icong-main/`)
 * open R by typing `R` at the prompt.
-* Install the package (ape) by typing `install.packages("ape")`
+* Install the package `ape` by typing `install.packages("ape")`
 * source the code by typing `source("icong.R")`
 * read your trees from external files as follows:
 ```r
     t1<-read.tree("your-file-with-tree-1")
     t2<-read.tree("your-file-with-tree-2")
 ```
-* Compute Icong:
+* **Compute Icong:**
 ```r
 icong<-ICONG.R(t1, t2) 
 ```
