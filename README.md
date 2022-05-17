@@ -25,7 +25,7 @@ Please, cite at least the first one if you use Icong in a publication.
     t1<-read.tree("your-file-with-tree-1")
     t2<-read.tree("your-file-with-tree-2")
 ```
-* **Compute Icong:**
+* Compute Icong:
 ```r
 icong<-ICONG.R(t1, t2) 
 ```
