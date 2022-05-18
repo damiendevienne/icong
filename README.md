@@ -32,6 +32,12 @@ icong<-ICONG.R(t1, t2)
 
 
 ## More 
+### PAUP*
+Icong relies on the program PAUP* for the computation of the Maximum Agreement SubTree (MAST) between the two trees compared. Thye current repo contains a version of this program (`paup`) precompiled for linux. If you need other version (you use other OS) you can get it here : [http://phylosolutions.com/paup-test/](http://phylosolutions.com/paup-test/). 
+
+Note that the R script that calls PAUP* considers that is is launched by typing `paup` in a console. 
+
+### Unrooted trees
 
 You you will see that some functions in the `icong.R` file are unrooted trees. Note that this works but has not yet been published (and may not be...)
 
